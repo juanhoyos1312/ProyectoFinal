@@ -1,0 +1,21 @@
+.banner {
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/vapes-ecfe6.appspot.com/o/Vozol-ailen-5000-disposable-vape.png?alt=media&token=18bd132b-5319-471d-86b5-cba934ca3e00");
+    background-position: top center;
+    background-size: cover;
+    padding: 20%;
+    position: relative;
+    z-index: 1;   
+    color: black;
+    background-attachment: fixed;
+}
+.banner::after{
+    content:'';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    z-index: -1;
+}
